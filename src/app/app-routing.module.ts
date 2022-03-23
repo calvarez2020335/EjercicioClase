@@ -6,9 +6,9 @@ import { LoginComponent } from './components/login/login.component';
 import { RegistrarComponent } from './components/registrar/registrar.component';
 
 const routes: Routes = [
-  {path: 'inicio', component: InicioComponent},
+  {path: '', component: InicioComponent},
   {path: 'dash', component: DashboardComponent},
-  {path: '', component: LoginComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'registrar' , component: RegistrarComponent }
 
 ];
